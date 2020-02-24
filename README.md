@@ -7,6 +7,7 @@ Este repositorio es una compilación de actividades diseñadas y escritas para e
 ## Enlaces
 
 * [actividad-01](actividades/actividad-01/)
+* [actividad-02](actividades/actividad-02/)
 
 ## Cronograma
 
