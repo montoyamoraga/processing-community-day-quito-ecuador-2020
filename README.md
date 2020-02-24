@@ -4,6 +4,10 @@
 
 Este repositorio es una compilación de actividades diseñadas y escritas para el evento Processing Community Day, realizado en Quito, Ecuador en marzo 2020.
 
+## Enlaces
+
+* [actividad-01](actividades/actividad-01/)
+
 ## Cronograma
 
 08am - registro y bienvenida  
