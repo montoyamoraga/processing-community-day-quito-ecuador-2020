@@ -8,6 +8,9 @@ Este repositorio es una compilación de actividades diseñadas y escritas para e
 
 * [actividad-01](actividades/actividad-01/)
 * [actividad-02](actividades/actividad-02/)
+* [actividad-03](actividades/actividad-03/)
+* [actividad-04](actividades/actividad-04/)
+* [actividad-05](actividades/actividad-05/)
 
 ## Cronograma
 
