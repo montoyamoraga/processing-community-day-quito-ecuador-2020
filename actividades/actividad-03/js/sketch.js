@@ -1,4 +1,4 @@
-// esta actividad está basada en la escrita por Andreas Refsgaard
+// esta actividad es una adaptación de la escrita por Andreas Refsgaard
 // para el libro Machine Learning for artists, disponible en ml4a.github.io
 // y también en https://editor.p5js.org/AndreasRef/sketches/r1_w73FhQ
 
@@ -108,14 +108,20 @@ function dibujarConNariz() {
       if (punto.score > 0.2) {
         // keypoints[0] es la nariz
         if (j == 0) {
+          
+          // obtener la posicion (x,y) de la nariz
           narizX = punto.position.x;
           narizY = punto.position.y;
 
+          // definir las opciones de dibujo en el buffer
           buffer.stroke(230, 80, 0);
           buffer.strokeWeight(5);
 
+          
+          // dibujar una línea entre posiciones actual y anterior de nariz
           buffer.line(narizX, narizY, narizAntesX, narizAntesY);
 
+          // copiar posición (x,y) actual de la nariz como posición anterior
           narizAntesX = narizX;
           narizAntesY = narizY; 
         }
@@ -140,14 +146,17 @@ function dibujarEsqueleto() {
         // para todo punto distinto de la nariz
         if (j != 0) {
 
+          // obtener la posicion (x,y) de la nariz
           let puntoX = punto.position.x;
           let puntoY = punto.position.y;
 
           // opciones de dibujo, sin contorno, relleno color rojo
           fill(255, 0, 0);
           noStroke();
+
           // dibujar elipse con diametro 5
           ellipse(puntoX, puntoY, 5, 5);
+
         }
       }
     }
