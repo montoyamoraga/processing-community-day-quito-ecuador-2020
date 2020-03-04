@@ -1,0 +1,19 @@
+{
+  "numeros": {
+    "uno": 1,
+    "dos": 2,
+    "tres": 3,
+    "cuatro": 4
+  },
+  "numbers": {
+    "uno": "one",
+    "dos": "two",
+    "tres": "three",
+    "cuatro": "four"
+  },
+  "paginas-web": {
+    "space-jam": "https://spacejam.com/",
+    "festival-eyeo": "https://vimeo.com/eyeofestival/",
+    "p5.js": "https://p5js.org/"
+  }
+}
